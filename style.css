@@ -1,0 +1,180 @@
+@font-face
+{
+    font-family:juke;
+    src:url(font/The_Juke_Box-FFP.ttf);
+}
+
+@font-face
+{
+    font-family:atomic;
+    src:url(font/AtomicAge-Regular.ttf);
+}
+
+p, label, h3, h4, option, input, button, h6, select, radio
+{
+    font-family: atomic;
+}
+
+body
+{
+    background-color: blue;
+    color:yellow;
+}
+
+/* ######################### NAV BAR ######################## */
+
+nav
+{
+    width: 100%;
+    margin:0;
+}
+
+nav ul
+{
+    background-color:yellow;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+
+ul.topnav li.left
+{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.right
+{
+    list-style: none;
+    float: right;
+}
+
+ul.topnav li a
+{
+    display:block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+ul.topnav li a:hover
+{
+    background-color: green
+    color: black;
+}
+
+/* ########################## INDEX ######################### */
+body.index
+{
+    align-items: center;
+}
+
+img.welcome
+{
+    width:500px;
+    height:500px;
+}
+
+div.intro
+{ 
+    align-content: center;
+    text-align: center;
+    padding:4px;
+    border:3px;
+}
+
+.more .welcome
+{ 
+    display: block;
+    align-items: center;
+    padding:4px;
+    border:3px;
+}
+
+.selection
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+h1
+{
+    font-family: juke;
+    font-size:100px;
+    font-weight: lighter;
+}
+
+/* ########################## ABOUT ######################### */
+.container
+{
+    width:100%;
+    padding-top:4%;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.col
+{
+    align-content: center;
+    width:33.33%;
+}
+
+.box
+{
+    margin:auto;
+    align-content:center;
+}
+
+img
+{
+    margin:auto;
+    width:300px;
+    height:300px;
+    align-content:center;
+}
+
+.icon
+{
+    margin:auto;
+    width:33.33%;
+    align-content:center;
+}
+
+body
+{
+    margin:auto;
+    align-content: center;
+    padding:5px;
+    align-items:center; 
+}
+
+label.about
+{
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+p.about
+{
+    text-align: center;
+}
+
+/* ########################## SIGN-IN ######################### */
+button
+{
+    text-align: center;
+    background-color: yellow;
+    justify-content: space-between;
+}

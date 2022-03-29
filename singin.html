@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SELECT A VAULT</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Please Customize Your Vault</h1>
+        <form action="https://formspree.io/f/xzboarbe" method="post">
+        <div>
+            <p>Enter Your Name</p>
+            <input type="text" id="name" name="name" required>
+        </div><br>
+        <div>
+            <p>Enter Your Address</p>
+            <input type="text" id="address" name="address" required>
+        </div><br>
+        <div>
+            <p>Enter Your Phone Number</p>
+            <input type="number" id="phone" name="phone" required>
+        </div><br>
+        <div>
+            <p>Enter Your Preffered Start Date*</p>
+            <input type="date" id="order" name="order" required>
+        </div><br>
+        <div>
+            <p>How Many People Are In Your Family?</p>
+            <p>Each person will cost $500.</p>
+            <input type="radio" id="family" name="family">1
+            <input type="radio" id="family" name="family">2
+            <input type="radio" id="family" name="family">3
+            <input type="radio" id="family" name="family">4
+            <input type="radio" id="family" name="family">5+
+        </div><br>
+        <div>
+            <p>How Many Years Do You Plan On Staying In Your Vault?</p>
+            <p>Each year will cost $800.</p>
+            <select required>
+                <option value="1">Less Than 1</option>
+                <option value="2">1-10</option>
+                <option value="3">11-25</option>
+                <option value="4">26-49</option>
+                <option value="5">50+</option>
+            </select>
+        </div><br>
+        <div>
+            <p>How Spacious Do You Want Your Vault?**</p>
+            <p>Each room costs $1500.</p>
+            <select required>
+                <option value="1">1 Room</option>
+                <option value="2">4 Rooms</option>
+                <option value="3">7 Rooms</option>
+                <option value="4">10 Rooms</option>
+                <option value="5">11+ Rooms</option>
+            </select>
+        </div><br>
+        </form><hr>
+        <button type="submit" class="buy">BUY YOUR VAULT</button>
+        <footer>
+            <h6>*Order date must be at least 2 months in advance.</h6>
+            <h6>**All come with a scaled greenhouse, bathroom, heating/AC unit, air and water filtration.</h6>
+        </footer>
+    </body>
+</html>
