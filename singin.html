@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>Please Customize Your Vault</h1>
-        <form>
+        <form action="https://formspree.io/f/xzboarbe" method="post">
         <div>
             <p>Enter Your Name</p>
             <input type="text" id="name" name="name" required>
@@ -17,11 +17,11 @@
         </div><br>
         <div>
             <p>Enter Your Phone Number</p>
-            <input type="number" id="phone" name="phone">
+            <input type="number" id="phone" name="phone" required>
         </div><br>
         <div>
             <p>Enter Your Preffered Start Date*</p>
-            <input type="date" id="order" name="order">
+            <input type="date" id="order" name="order" required>
         </div><br>
         <div>
             <p>How Many People Are In Your Family?</p>
@@ -35,7 +35,7 @@
         <div>
             <p>How Many Years Do You Plan On Staying In Your Vault?</p>
             <p>Each year will cost $800.</p>
-            <select>
+            <select required>
                 <option value="1">Less Than 1</option>
                 <option value="2">1-10</option>
                 <option value="3">11-25</option>
@@ -46,7 +46,7 @@
         <div>
             <p>How Spacious Do You Want Your Vault?**</p>
             <p>Each room costs $1500.</p>
-            <select>
+            <select required>
                 <option value="1">1 Room</option>
                 <option value="2">4 Rooms</option>
                 <option value="3">7 Rooms</option>
@@ -55,7 +55,7 @@
             </select>
         </div><br>
         </form><hr>
-        <button type="submit">BUY YOUR VAULT</button>
+        <button type="submit" class="buy">BUY YOUR VAULT</button>
         <footer>
             <h6>*Order date must be at least 2 months in advance.</h6>
             <h6>**All come with a scaled greenhouse, bathroom, heating/AC unit, air and water filtration.</h6>
